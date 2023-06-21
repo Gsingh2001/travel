@@ -9,7 +9,7 @@ export const TodoProvider =({children})=>{
 
     const [allTasks, setAllTasks] = useState();
     const [latestTask, setLatestTask] = useState();
-    const [recentTask, setRecentTask] = useState();
+    const [recentTask, setRecentTask] = useState([]);
 
     const navigate = useNavigate();
 
@@ -88,9 +88,29 @@ export const TodoProvider =({children})=>{
       }
 
       const response = await fetch(`http://localhost:5000/tasks`, obj);
-
       if(response.ok){
         setMessage("Task created successfully");
+        getTasks();
+      }else{
+        setMessage("Something went wrong");
+      }
+    }
+
+    // update task
+
+    const updateTask = async(formData)=>{
+      const obj = {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      }
+
+      const response = await fetch(`http://localhost:5000/tasks/${formData.id}`, obj);
+      if(response.ok){
+        setMessage("Task Updated successfully");
+        getTasks();
       }else{
         setMessage("Something went wrong");
       }
@@ -100,17 +120,26 @@ export const TodoProvider =({children})=>{
     // getTasks
 
     const getTasks = async()=>{
+      console.log("getTask executed");
       const response =await fetch(`http://localhost:5000/tasks?userId=${user.id}`, {method: "GET"})
       if(response.ok){
         const tasks = await response.json();
         setAllTasks(tasks);
-        const latest = await tasks[tasks.length-1];
+        const latest = tasks[tasks.length-1];
         setLatestTask(latest);
-        const recent = await tasks.slice(-3);
+        const recent = tasks.slice(-3);
         setRecentTask(recent);
       }
     }
 
+    const deleteTask = async(id)=>{
+      const response = await fetch(`http://localhost:5000/tasks/${id}`, {method: 'DELETE'});
+      if(response.ok){
+        setMessage("Task deleted successfully");
+      }else{
+        setMessage("something went wrong");
+      }
+    }
 
  
 
@@ -118,14 +147,25 @@ export const TodoProvider =({children})=>{
     useEffect(()=>{
       const localUser = localStorage.getItem('user');
       const currentUser = JSON.parse(localUser);
-      setUser(currentUser); 
+      if(currentUser){
+        setUser(currentUser); 
+      }
     }, [])
+
+    // {
+    //   username: checkUser[0].username,
+    //   id: checkUser[0].id,
+    //   email: checkUser[0].email,
+    //  isLoggedIn
+    // }
 
     useEffect(()=>{
       if(user != null){
         getTasks();
       }      
     }, [user])
+
+
 
     return(
         <TodoContext.Provider value={{
@@ -138,7 +178,9 @@ export const TodoProvider =({children})=>{
             createTask,
             allTasks,
             latestTask,
-            recentTask
+            recentTask,
+            updateTask,
+            deleteTask
         }}>
             {children}
         </TodoContext.Provider>

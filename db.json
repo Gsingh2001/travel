@@ -97,10 +97,16 @@
       "id": 16
     },
     {
-      "username": "Bhavya Sareen",
-      "email": "bhavya@gmail.com",
-      "password": "bhavu",
+      "username": "Gurmanpreet Singh",
+      "email": "gsingh07@outlook.in",
+      "password": "guru",
       "id": 17
+    },
+    {
+      "username": "navdeep",
+      "email": "nav@gmail.com",
+      "password": "nav",
+      "id": 18
     }
   ],
   "tasks": [
@@ -140,127 +146,128 @@
       "id": 5
     },
     {
-      "title": "task1",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task1",
-      "dueDate": "2023-04-15T12:52",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 6
     },
     {
-      "title": "task1",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task1",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 7
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 8
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 9
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 10
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 11
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 12
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 13
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 14
     },
     {
-      "title": "task4",
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
       "userId": 16,
-      "description": "task4",
-      "dueDate": "2023-04-15T14:00",
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 15
     },
     {
+      "title": "w dhj",
+      "description": "w jhdj",
+      "dueDate": "2023-04-27T15:31",
+      "userId": 16,
+      "createdOn": "2023-04-27T10:01:02.486Z",
       "id": 16
     },
     {
-      "title": "task9",
+      "title": "",
+      "description": "",
+      "dueDate": "",
+      "DateofBirth": "2001-08-28T23:42",
       "userId": 16,
-      "description": "task867689",
-      "dueDate": "2023-04-15T14:05",
+      "createdOn": "2023-04-27T18:13:10.956Z",
+      "Gender": "2",
+      "Contact": "6284085925",
+      "Designation": "Web Developer",
       "id": 17
     },
     {
-      "title": "hoiuho",
+      "title": "",
+      "description": "",
+      "dueDate": "",
+      "DateofBirth": "2001-08-28T23:42",
       "userId": 16,
-      "description": "ihuo",
-      "dueDate": "2023-04-15T14:08",
-      "current-date": "ewrqreftrgr",
+      "createdOn": "2023-04-27T18:13:10.956Z",
+      "Gender": "2",
+      "Contact": "6284085925",
+      "Designation": "Web Developer",
       "id": 18
     },
     {
-      "title": "dfWSF",
+      "title": "",
+      "description": "",
+      "dueDate": "",
+      "DateofBirth": "2001-08-28T23:42",
       "userId": 16,
-      "description": "ggaegareg",
-      "dueDate": "2023-04-15T14:10",
+      "createdOn": "2023-04-27T18:13:10.956Z",
+      "Gender": "2",
+      "Contact": "6284085925",
+      "Designation": "Web Developer",
       "id": 19
-    },
-    {
-      "title": "Task 1",
-      "userId": 17,
-      "description": "Task 1",
-      "dueDate": "2023-04-15T20:14",
-      "id": 20
-    },
-    {
-      "title": "task2",
-      "userId": 17,
-      "description": "task2",
-      "dueDate": "2023-04-15T20:21",
-      "id": 21
-    },
-    {
-      "title": "task2",
-      "userId": 17,
-      "description": "task2",
-      "dueDate": "2023-04-15T20:21",
-      "id": 22
-    },
-    {
-      "title": "task2",
-      "userId": 17,
-      "description": "task2",
-      "dueDate": "2023-04-15T20:21",
-      "id": 23
     }
   ]
 }

@@ -1,16 +1,7 @@
-@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
-
-body, html{
-    height: 100%;
+.client-expert{
+  width: 80px; 
+  height: 80px;
 }
-#root{
-    height: 100%;
-}
-
-body{
-    background-color: #DDE7F9;
-}
-
-.bg-primary{
-    background-color: #111727 !important;
+.c3{
+  border: 2px solid red;
 }

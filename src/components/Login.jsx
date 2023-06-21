@@ -26,6 +26,7 @@ function Login(props) {
 
     return (
         <form>
+            <p className='fs-2'>Login</p>
             <div className='mb-3'>
                 <label className='form-label'>Email</label>
                 <input type="text" name='email' className='form-control' onChange={handleChange} />
